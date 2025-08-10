@@ -27,7 +27,7 @@ This project showcases **two approaches** to building the same financial agent:
 ```
 +-------------------+       +-------------------+       +-------------------+       +-------------------+
 |  User Interface   |       |  Financial Agent  |       |    MCP Client     |       | Polygon MCP Server|
-|  (CLI / Gradio)   |<----->| (LangGraph Agent) |<----->|  (Communication)  |<----->| (FastMCP Server)  |
+|  (CLI / Gradio)   |<----->| (LangChain Agent) |<----->|  (Communication)  |<----->| (FastMCP Server)  |
 |                   |       |                   |       |                   |       |                   |
 |  - User Queries   |       |  - Gemini LLM     |       |  - Tool Discovery |       |  - Polygon Tools  |
 |  - Response Display|       |  - Query Processing|       |  - Request/Response|      |  - API Wrapper    |
@@ -171,7 +171,7 @@ FinBot/
 
 **Shared Components:**
 - **AI Model**: Google Gemini 1.5 Pro
-- **Agent Framework**: LangGraph  
+- **Agent Framework**: LangGraph/LangChain  
 - **Financial Data**: Polygon.io API
 - **Web Interface**: Gradio
 
