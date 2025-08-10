@@ -1,4 +1,4 @@
-# FinBot: Polygon Financial Agent - Two Architectural Approaches
+# FinBot: AI Financial Agent - Two Architectural Approaches(MCP)
 
 A financial AI agent demonstrating two different architectures for building production-ready AI systems with Polygon.io market data.
 
